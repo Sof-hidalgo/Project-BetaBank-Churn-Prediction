@@ -9,7 +9,7 @@ El proyecto busca desarrollar un modelo de machine learning que prediga qué cli
 Crear un modelo predictivo efectivo que permita identificar clientes en riesgo de churn, optimizando la retención y reduciendo costos de adquisición de nuevos clientes.
 
 ### Descripción de los datos
-Puedes encontrar los datos en el archivo  /datasets/Churn.csv file. Descarga el conjunto de datos.
+Puedes encontrar los datos en el archivo Churn.csv.
 
 ### Características
 
@@ -27,6 +27,14 @@ Puedes encontrar los datos en el archivo  /datasets/Churn.csv file. Descarga el 
 - IsActiveMember: actividad del cliente (1 - sí; 0 - no)
 - EstimatedSalary: salario estimado
 - Objetivo: Exited: El cliente se ha ido (1 - sí; 0 - no)
+
+### Pasos del proyecto
+- Descargar y preparar los datos.  Explicar el procedimiento.
+- Examinar el equilibrio de clases. Entrenar el modelo sin tener en cuenta el desequilibrio. Describir brevemente los hallazgos.
+- Mejorar la calidad del modelo. Utilizar al menos dos enfoques para corregir el desequilibrio de clases. Utilizar conjuntos de entrenamiento y validación para encontrar el mejor modelo y el mejor conjunto de parámetros. Entrenar diferentes modelos en los conjuntos de entrenamiento y validación. Encontrar el mejor. Describir brevemente tus hallazgos.
+- Realizar la prueba final.
+
+[Igualmente, en el archivo .ipynb se dejarán comentarios más específicos de cada paso.]
 
 ## 📈 Conclusiones Finales:
 - Mejor Modelo: Random Forest con sobremuestreo obtuvo un F1-score de 0.639 y un AUC-ROC de 0.868, lo que demuestra una alta capacidad de clasificación.
